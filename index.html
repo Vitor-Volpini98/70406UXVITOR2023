@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Start project Coffe Shop-->
+    <title>Volp's Coffees Signature</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#myPage">Volp's Coffees😄</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="true">
+                TASKS <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class>
+                <a href="#timetable">Timetable</a></li> 
+                <li class>
+                <a href="#taskone">Task One</a></li>
+                <li class>
+                <a href="#tasktwo">Task Two</a></li>
+                <li class>
+                <a href="#moretasks">More Tasks</a></li>
+              </ul>
+            </li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#pricing">PRICING</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+      <div class="form-group row"></div>
+      <div class="col-xs-3"></div>
+      <div class="col-xs-6">
+        <h1 class="maintitle">Volp's Coffees&#9749;</h1>
+        <h2 class="secondtitle">Try it! Subscribe to receive promotions.</h2>
+        <form>
+          <div class="input-group">
+            <input
+              type="email"
+              class="form-control"
+              size="50"
+              placeholder="Email Address"
+              required
+            />
+            <div class="input-group-btn">
+              <button type="button" class="btn btn-danger">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-xs-3"></div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div id="about" class="container-fluid-main">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 >About Us 😍</h2>
+          <br />
+          <h4>
+            Created by Vitor Volpini Chef, Volp's Coffees, this once small space
+            has grown and grown to become the areas premier bakery with its
+            own full-service restaurant, Cafe Brisbane.
+          </h4>
+          <br />
+          <p>
+            Our coffee is roasted fresh by Agtron, a world leader in Coffee
+            Science. And we serve only USDA Certified Organic teas from
+            Davidsons Teas. We have a developed long-standing relationships
+            with these companies not only because they are small businesses
+            operating out of the Reno/Sparks area, but they are also dedicated
+            to the product they provide.
+          </p>
+          <br /><button class="btn btn-info btn-lg">Get in Touch</button>
+          <img class="qr-codemod" src="./images/qrcode-1mob.png"/>
+        </div>
+        <div  class="col-sm-4">
+          
+          <img class="people-drinking" src="./images/drinking-coffee.png" style="width: 100%;"/>
+          <br>
+          <br>
+          <br>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-xE8F0a8AiWWQDzDNnUyiDLV1Pn6881yOHOJglQ6KH7EyxA/viewform?embedded=true" target="blank" id="customer-botom" class="btn btn-info btn-lg"> Customer Survey - Form </a>
+          <br>
+          <br>
+          <a href="https://docs.google.com/spreadsheets/d/1vkFdCw1PH4qlAuCnk6IWImt7pKmZebhu1au2tC5xFS8/edit?resourcekey#gid=1232144265" id="customer-botom" class="btn btn-info btn-lg"> Feedback Customer Survey</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Container (Bussiness Timetable) -->
+    <div id="timetable" class="container-fluid">
+      <br>
+      <div class="row"></div>
+      <div id=mytable class="col-sm-8">
+          <h2 class="business-hour">Timetable &#9200;</h2>
+          <h3 class="busi-section">
+            (Stay tuned to our schedule so you don't miss anything.)
+          </h3>
+              <table class="table">
+                <thead>
+                <tr>
+                  <th>Week Days</th>
+                  <th>Business Start</th>
+                  <th>Business Finish</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td >MONDAY</td>
+                  <td >6:00 AM</td>
+                  <td >8:00 PM</td>
+                </tr>
+                <tr>
+                  <td >TUESDAY</td>
+                  <td >6:00 AM</td>
+                  <td >8:00 PM</td>
+                </tr>
+                <tr>
+                  <td >WEDNESDAY</td>
+                  <td >6:00 AM</td>
+                  <td >8:00 PM</td>
+                </tr>
+                <tr>
+                  <td>THURDAY</td>
+                  <td>6:00 AM</td>
+                  <td>8:00 PM</td>
+                </tr>
+                <tr>
+                  <td>FRIDAY</td>
+                  <td>6:00 AM</td>
+                  <td>8:00 PM</td>
+                </tr>
+                <tr>
+                  <td>SATURDAY</td>
+                  <td>6:00 AM</td>
+                  <td>8:00 PM</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+        </div> 
+    </div>
+
+    <div id="photo-prep" class="container-fluid bg-grey">
+      <div class="row"></div>
+        <div  class="col-sm-4">
+          <img class="image-prep" src="./images/photopreparation.png" style="width: 100%" />
+        </div>
+        <div class="col-sm-8">
+          <h2 class="values-text">Our Values</h2>
+          <br />
+          <h4>
+            <strong>MISSION:</strong> “It’s our mission to make a massive difference, one cup at a time.”
+          </h4>
+          <br />
+          <p>
+            <strong>VISION:</strong> We want to be the most loved and respected coffee company in the world, and we are tireless in our pursuit to serve the highest quality coffee, while making each and every one of our guests feel like they are returning home when they step into one of our coffee houses. To deliver superior quality products and services for our guests and communities through leadership, innovation, and partnerships.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (Task One Section)-->
+    <div id="taskone">
+      <br>
+      <br>
+      <div class="container-fluid bg-grey">
+        <div class="row"></div>
+          <div class="col-sm-8">
+            <h2 id="taskone-text"> Task One</h2> 
+        </div>
+        <br>
+      </div>
+     </div>
+    <div class="row">
+      <div class="col-md-4">
+          <h2 class="well">REQUIREMENT</h2>
+          <img class="images-three" src="./images/prep-coffe-second.png" style="width:250px;height:200px;"/>
+          <p class="text-align">Our requirement is give a good service for everyone. Could be assess any time online.</p>
+          <br /> <br /> <br /> <br />
+      </div>
+      <div class="col-md-4">
+          <h2 class="well">BUSINESS PROBLEM</h2>
+          <img class="images-three" src="./images/coffe-shop.problems.png" style="width:250px;height:200px;"/>
+          <p class=text-align>
+          Which bussiness does not have problems? Here, we solve all of them with a good coffe!</p>
+          <br /> <br /> <br /> <br />
+      </div>
+      <div class="col-md-4">
+          <h2 class="well">BUSINESS GOAL</h2>
+          <img class="images-three" src="./images/coffee-and-goals.jpg" style="width:250px;height:200px;" />
+           <p class=text-align>
+          Our goal it is to provide a lovely place for our customer.</p>
+          <br /> <br /> <br /> <br />
+        </div>
+        <br>
+      </div>
+     </div>
+      </div>
+  </div>
+    
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid text-center">
+      <h2 class="offer-section">SERVICES 😋</h2>
+      <h4 class="wh-offer">What we offer for our lovely customers 🤝</h4>
+      <br />
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-off logo-small"></span>
+          <h4>POWER</h4>
+          <p>To start the day with ENERGY</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-heart logo-small"></span>
+          <h4>LOVE</h4>
+          <p>A place to be with the people you LOVE</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-lock logo-small"></span>
+          <h4>JOB DONE</h4>
+          <p>Specialized services</p>
+        </div>
+      </div>
+      <br /><br />
+      <div class="row slideanim">
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-leaf logo-small"></span>
+          <h4>GREEN</h4>
+          <p>Sustainable Products</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-certificate logo-small"></span>
+          <h4>CERTIFIED</h4>
+          <p>Quality product certificates</p>
+        </div>
+        <div class="col-sm-4">
+          <span class="glyphicon glyphicon-wrench logo-small"></span>
+          <h4 style="color: #fff">HARD WORK</h4>
+          <p>
+            We have our trained team so that the customer has the best
+            experience
+          </p>
+        </div>
+      </div>
+    </div>
+
+   
+    <!-- Container (Portfolio Section) -->
+    <div id="portfolio" class="container-fluid text-center bg-grey">
+      <h2 class="portfolio-section">Portfolio</h2>
+      <br />
+      <h4 class="wh-portfolio">What we have created</h4>
+      <div class="row text-center slideanim">
+        <div class="col-sm-4">
+          <div id="salad-photo" class="thumbnail">
+            <img src="./images/salad-coffe.jpg" alt="salad-coffe" style="width:500px;height:520px;"  />
+            <p><strong>Authentic Coffes</strong></p>
+            <p>Prepare your brunch </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img class="menu-edtion" src="./images/my-menu.jpg" alt="my-menu" style="width:500px;height:520px;"/>
+            <p><strong>Especialized Menu</strong></p>
+            <p>Choose your prefer drink</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="./images/crossaint-cf.jpg "
+              alt="crossaint-cf"
+              style="width:500px;height:520px;"
+            />
+            <p><strong>Best Combinations</strong></p>
+            <p>Croissants + Coffe= pure love</p>
+          </div>
+        </div>
+      </div>
+      <br />
+
+      <h2>What our customers say</h2>
+      <div
+        id="myCarousel"
+        class="carousel slide text-center"
+        data-ride="carousel"
+      >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <h4>
+              "This Coffee Shop is the best. I like the taste so much!"<br /><span
+                >Michael Roe, Vice President, Comment Box</span
+              >
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              "I need to say... what a COFFEE!!"<br /><span>John Doe, Salesman, Rep Inc</span>
+            </h4>
+          </div>
+          <div class="item">
+            <h4>
+              "I love their coffee, it gives me ENERGY for te whole day?"<br /><span
+                >Chandler Bing, Actor, FriendsAlot</span
+              >
+            </h4>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a
+          class="left carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-left"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="right carousel-control"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="glyphicon glyphicon-chevron-right"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Container (Task Two Section)-->
+    <div id="tasktwo">
+      <br>
+      <br>
+      <div class="container-fluid bg-grey">
+        <div class="row"></div>
+          <div class="col-sm-8">
+            <h2 id="taskone-text"> Task Two</h2> 
+        </div>
+        <br>
+      </div>
+     </div>
+    <div class="row">
+      <div class="col-md-4">
+          <h2 class="well">Local People</h2>
+          <img class="images-four" src="./images/first-imagecf.png" style="width:250px;height:200px;"/>
+          <p class="text-align">Any people come to joy our nice coffee or good food. Could be  any time online.</p>
+          <br /> <br /> <br /> <br />
+      </div>
+      <div class="col-md-4">
+          <h2 class="well">Office Staff</h2>
+          <img class="images-four" src="./images/second-imagecf.png" style="width:250px;height:200px;"/>
+          <p class=text-align>
+          Staff with especialized training, providing the best service at all times. .</p>
+          <br /> <br /> <br /> <br />
+      </div>
+      <div class="col-md-4">
+          <h2 class="well">Tourist or Traveller</h2>
+          <img class="images-four" src="./images/third-imagecf.jpg" style="width:250px;height:200px;" />
+           <p class=text-align>
+          Tourist our Traveller, delicious coffee for all types and tastes. </p>
+          <br /> <br /> <br /> <br />
+        </div>
+        <br>
+      </div>
+     </div>
+      </div>
+  </div>
+
+    <!-- Container (Pricing Section) -->
+    <div id="pricing" class="container-fluid">
+      <div class="text-center">
+        <h2 class="prici-text">Pricing</h2>
+      </div>
+      <div class="row slideanim">
+        <div class="col-sm-4 col-xs-12">
+          <div id="panel-single" class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Single</h1>
+            </div>
+            <div class="panel-body">
+              <p><strong>20</strong> Cappuccino</p>
+              <p><strong>15</strong> Latte</p>
+              <p><strong>5</strong> Hot Chocolate</p>
+              <p><strong>2</strong> Tea</p>
+              <p><strong>Endless</strong> Lollies 🍬</p>
+            </div>
+            <div class="panel-footer">
+              <h3>$19</h3>
+              <h4>per month</h4>
+              <button class="btn btn-lg">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Couple</h1>
+            </div>
+            <div class="panel-body">
+              <p><strong>50</strong> Cappuccino</p>
+              <p><strong>25</strong> Latte</p>
+              <p><strong>10</strong> Hot Chocolate</p>
+              <p><strong>5</strong> Tea</p>
+              <p><strong>Endless</strong> Lollies 🍭</p>
+            </div>
+            <div class="panel-footer">
+              <h3>$29</h3>
+              <h4>per month</h4>
+              <button class="btn btn-lg">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h1>Family</h1>
+            </div>
+            <div class="panel-body">
+              <p><strong>100</strong> Cappuccino</p>
+              <p><strong>50</strong> Latte</p>
+              <p><strong>25</strong> Hot Chocolate</p>
+              <p><strong>10</strong> Tea</p>
+              <p><strong>Endless</strong> Lollies 🍨 </p>
+            </div>
+            <div class="panel-footer">
+              <h3>$49</h3>
+              <h4>per month</h4>
+              <button class="btn btn-lg">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (More Tasks) -->
+    <div id="moretasks">
+      <br>
+      <br>
+      <div class="container-fluid bg-grey">
+        <div class="row">
+          <div class="col-sm-4">
+            <span id="envelopeimg" class="glyphicon glyphicon-envelope logo slideanim slide"></span>
+          </div>
+          <div class="col-sm-8">
+            <h2 class="tasksplus"> More Tasks</h2>
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" class="collapsed">Task 4 - Customer Survey</a>
+                  </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-xE8F0a8AiWWQDzDNnUyiDLV1Pn6881yOHOJglQ6KH7EyxA/viewform?embedded=true" target="blank" id="customer-botom" class="btn btn-info btn-lg"> Customer Survey - Fill the Form </a>  
+                </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed" aria-expanded="false">Task 5 - Feedback Customer Service</a>
+                  </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse in" aria-expanded="true" style>
+                  <div class="panel-body">
+                    <a href="https://docs.google.com/spreadsheets/d/1vkFdCw1PH4qlAuCnk6IWImt7pKmZebhu1au2tC5xFS8/edit?resourcekey#gid=1232144265" id="customer-botom" class="btn btn-info btn-lg"> View the feedback Customer Survey</a>  
+                  </div>
+                </div> 
+              </div>
+              <div class="panel panel-default">
+               <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed" aria-expanded="false">Task 6 -Daily Check List</a>  
+                </h4>
+               </div>
+               <div id="collapse3" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                  <img src="./images/checklist.png" width="100%">
+                </div>
+              </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed" aria-expanded="false">Task 7- File Structure</a> 
+                  </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
+                <div class="panel-body">
+                <img src="./images/filestructure.png" width="100%">
+                </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid bg-grey">
+      <h2 id="contact-text" class="text-center">CONTACT</h2>
+      <div class="row">
+        <div class="col-sm-5">
+          <p>Contact us and we'll get back to you within 24 hours.</p>
+          <p>
+            <span class="glyphicon glyphicon-map-marker"></span> Brisbane, AUS
+          </p>
+          <p><span class="glyphicon glyphicon-phone"></span> +61 123456789</p>
+          <p>
+            <span class="glyphicon glyphicon-envelope"></span>
+            volpscfshop@coffes.com
+          </p>
+        </div>
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+            </div>
+            <div class="col-sm-6 form-group">
+              <input
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+          <textarea
+            class="form-control"
+            id="comments"
+            name="comments"
+            placeholder="Comment"
+            rows="5"
+          ></textarea
+          ><br />
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image of location/map -->
+    <img src="./images/cofeeshop.png" style="width: 100%" />
+
+    <footer class="container-fluid text-center" id="myfooter">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p class="copyrights">All rights reserved © Vitor 70406</p>
+    </footer>
+  </body>
+</html>
